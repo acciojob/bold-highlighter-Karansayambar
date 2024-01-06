@@ -1,12 +1,13 @@
+const link = document.getElementById("link");
+
 function highlight() {
-    //Write your code here
-
-
+    if (link) {
+        link.classList.add("highlighted");
+    }
 }
-
-
 function return_normal() {
-    //Write your code here
-
-    
+    if (link) {
+        link.classList.add("black");
+    }
 }
+
