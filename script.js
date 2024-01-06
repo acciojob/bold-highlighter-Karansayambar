@@ -2,12 +2,12 @@ const strongElement = document.getElementsByTagName("strong");
 
 function highlight() {
     for(const strong of strongElement){
-		strong.classList.add("highlighted");
+		strong.style.color="rgb(0, 128, 0)";
 	}
 }
 function return_normal() {
     for(const strong of strongElement){
-		strong.classList.remove("highlighted");
+		strong.style.color= "black";
 	}
 }
 
