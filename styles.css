@@ -1,9 +1,7 @@
 /*  your css code here. If applicable */
 .highlighted {
     color: rgb(0, 128, 0);
-	font-weight: bold;
 }
 .black{
 	color:black;
-	font-weight:normal;
 }

@@ -1,13 +1,13 @@
-const link = document.getElementById("link");
+const strongElement = document.getElementsByTagName("strong");
 
 function highlight() {
-    if (link) {
-        link.classList.add("highlighted");
-    }
+    for(const strong of strongElement){
+		strong.classList.add("highlighted");
+	}
 }
 function return_normal() {
-    if (link) {
-        link.classList.add("black");
-    }
+    for(const strong of strongElement){
+		strong.classList.remove("highlighted");
+	}
 }
 
